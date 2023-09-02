@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply bg-white;
+    @apply antialiased;
+    @apply overscroll-x-none;
+}
+
+body {
+    @apply text-gray-800;
+    @apply font-open-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-oswald;
+    @apply text-xl font-bold text-gray-900;
+    @apply uppercase tracking-wider;
+    @apply leading-normal;
+    @apply mb-2 mt-4;
+}
