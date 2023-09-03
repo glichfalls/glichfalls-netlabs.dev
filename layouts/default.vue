@@ -11,8 +11,8 @@
 </template>
 
 <script setup lang="ts">
-import PageHeader from "~/components/Header/PageHeader.vue";
-import PageFooter from "~/components/Footer/PageFooter.vue";
+import PageHeader from "~/components/structure/PageHeader.vue";
+import PageFooter from "~/components/structure/PageFooter.vue";
 </script>
 
 <style scoped lang="postcss"></style>

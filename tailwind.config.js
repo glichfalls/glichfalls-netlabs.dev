@@ -10,9 +10,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      primary: "#002850",
-      secondary: "#808080",
-      accent: "#66CCFF",
+      primary: "#324EA3",
+      secondary: "#FA8F68",
+      accent: "#8C4B3C",
       white: "#FFFFFF",
       gray: {
         900: "#111820",

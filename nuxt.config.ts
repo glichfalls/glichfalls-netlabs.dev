@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: [
+    '@nuxt/image',
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
     "@nuxtjs/google-fonts",
@@ -35,6 +36,10 @@ export default defineNuxtConfig({
       Oswald: true,
       "Open+Sans": true,
     },
+  },
+  image: {
+    dir: "public/images/",
+    quality: 80,
   },
   devtools: {
     enabled: true,
